@@ -4,6 +4,7 @@ Nama      : Wahyudi Hermawan <br>
 NIM       : 311910106 <br>
 Kelas     : TI.19.B1 <br>
 
+**======================================================================================**
 # Praktikum 11
 1. Installasi & konfigurasi CodeIgneter <br>
 
@@ -74,6 +75,7 @@ sama <br>
 9. Hasil menu kontak <br>
 ![image](https://user-images.githubusercontent.com/81253746/121815208-6fa6c980-cc9f-11eb-8901-c5a51177cfdb.png) <br>
 
+**======================================================================================**
 # Praktikum 12
 
 **1. Membuat Database: Studi Kasus Data Artikel <br>**
@@ -145,6 +147,58 @@ c. Hasil <br>
 **16. Menghapus Data <br>**
 a. Menambah method delete() pada controller artikel <br>
 ![image](https://user-images.githubusercontent.com/81253746/122790376-760df480-d2e2-11eb-891b-cd14745626bf.png) <br>
+
+**======================================================================================**
+# Praktikum 13
+**1. Membuat tabel user <br>**
+![image](https://user-images.githubusercontent.com/81253746/124432093-68a14180-dd9b-11eb-948f-bd6ca2f4e76a.png) <br>
+**2. >Membuat Model User <br>**
+**![image](https://user-images.githubusercontent.com/81253746/124432364-bf0e8000-dd9b-11eb-95e0-5a5d4fbddb97.png) <br>
+3. Membuat Controller User <br>**
+![image](https://user-images.githubusercontent.com/81253746/124432701-1ad90900-dd9c-11eb-826a-ae185561027e.png) <br>
+**4. Membuat View Login <br>**
+![image](https://user-images.githubusercontent.com/81253746/124433004-6ee3ed80-dd9c-11eb-9998-fe63028a7ee4.png) <br>
+**5. Membuat Database Seeder <br>**
+![image](https://user-images.githubusercontent.com/81253746/124433840-617b3300-dd9d-11eb-8b78-9b7cb13972a1.png) <br>
+**6. Uji Coba Login <br>**
+![image](https://user-images.githubusercontent.com/81253746/124444717-16ffb380-dda9-11eb-841d-b61ee88c7ffc.png) <br>
+**7. Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut: <br>**
+![image](https://user-images.githubusercontent.com/81253746/124445517-d3597980-dda9-11eb-88ec-3fdaa4120827.png) <br>
+**8. Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya <br>**
+![image](https://user-images.githubusercontent.com/81253746/124445637-eb30fd80-dda9-11eb-8d08-ee52f5271d2b.png) <br>
+**9. Percobaan akses menu admin <br>**
+![image](https://user-images.githubusercontent.com/81253746/124444717-16ffb380-dda9-11eb-841d-b61ee88c7ffc.png) <br>
+**10. Menambahkan function logout <br>**
+![image](https://user-images.githubusercontent.com/81253746/124445948-30edc600-ddaa-11eb-84a0-3232c3fea0a9.png) <br>
+
+**======================================================================================**
+# Praktikum 14
+**1. Membuat Pagination <br>
+a. Modifikasi kode pada method admin_index pada Controller Artikel <br>**
+![image](https://user-images.githubusercontent.com/81253746/124446708-e02a9d00-ddaa-11eb-94cb-cdac3ae41e3a.png) <br>
+**b. Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut dibawah deklarasi tabel data <br>**
+![image](https://user-images.githubusercontent.com/81253746/124485426-bc7d4c00-ddd6-11eb-8459-2fc36a96e777.png) <br>
+**c. Hasil  <br>**
+![image](https://user-images.githubusercontent.com/81253746/124485678-05350500-ddd7-11eb-9ee8-fa9e274b5a86.png) <br>
+**2. Membuat Pencarian <br>**
+**a. Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut : <br>**
+![image](https://user-images.githubusercontent.com/81253746/124486042-65c44200-ddd7-11eb-8d40-a38872a8edeb.png) <br>
+**b. Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut : <br>**
+![image](https://user-images.githubusercontent.com/81253746/124486372-ba67bd00-ddd7-11eb-9c05-6b29e1304b0e.png) <br>
+**c. Dan pada link pager ubah seperti berikut <br>**
+![image](https://user-images.githubusercontent.com/81253746/124486523-e125f380-ddd7-11eb-8036-e6c310d8bcd2.png) <br>
+**d. Hasil  <br>**
+![image](https://user-images.githubusercontent.com/81253746/124486705-116d9200-ddd8-11eb-828f-ca0e1810675d.png) <br>
+**3. Upload Gambar <br>**
+**a. Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller  <br>**
+**Artikel, sesuaikan kode pada method add seperti berikut: <br>**
+![image](https://user-images.githubusercontent.com/81253746/124487096-8214ae80-ddd8-11eb-9ed3-48edfa04f911.png) <br>
+**b. Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti berikut. Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut. <br>**
+![image](https://user-images.githubusercontent.com/81253746/124487388-d881ed00-ddd8-11eb-8fa0-7633fd296396.png) <br>
+**c. Hasil <br>**
+![image](https://user-images.githubusercontent.com/81253746/124487429-e8013600-ddd8-11eb-87da-f956ddc8c8cd.png) <br>
+
+
 
 
 
